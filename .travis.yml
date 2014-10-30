@@ -6,4 +6,4 @@ install:
   - sudo apt-get install mono-devel mono-gmcs nunit-console
 script:
   - xbuild LINQExtensions.sln
-  - nunit-console LINQExtensions\bin\Debug\LINQExtensions.dll
+  ##- nunit-console LINQExtensions\bin\Debug\LINQExtensions.dll
