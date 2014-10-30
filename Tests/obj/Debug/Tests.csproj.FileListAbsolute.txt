@@ -1,7 +1,0 @@
-F:\GitHub\LINQExtensions\Tests\bin\Debug\Tests.dll
-F:\GitHub\LINQExtensions\Tests\bin\Debug\Tests.pdb
-F:\GitHub\LINQExtensions\Tests\bin\Debug\LINQExtensions.dll
-F:\GitHub\LINQExtensions\Tests\bin\Debug\LINQExtensions.pdb
-F:\GitHub\LINQExtensions\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
-F:\GitHub\LINQExtensions\Tests\obj\Debug\Tests.dll
-F:\GitHub\LINQExtensions\Tests\obj\Debug\Tests.pdb
