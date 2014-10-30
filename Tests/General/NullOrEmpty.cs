@@ -25,5 +25,13 @@ namespace Tests.General
 
             Assert.AreEqual(array.NullToEmpty().Count(x => x % 2 == 0), 5);
         }
+
+        [TestMethod]
+        public void TestEmptySource()
+        {
+            var array = new int[0];
+
+            Assert.AreEqual(array.NullToEmpty().Count(), 0);
+        }
     }
 }
