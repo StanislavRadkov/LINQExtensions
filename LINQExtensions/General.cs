@@ -100,5 +100,29 @@ namespace LINQExtensions
         {
             return !source.Any(predicate);
         }
+
+        /// <summary>
+        /// Performs an action on every item in the collection.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="source">The collection reference.</param>
+        /// <param name="action">The action.</param>
+        public static void ForEach<T>(this IEnumerable<T> source, Action<T> action)
+        {
+            if (source == null)
+            {
+                throw new ArgumentException("source parameter cannot be null!");
+            }
+
+            if (action == null)
+            {
+                throw new ArgumentException("action parameter cannot be null!");
+            }
+
+            foreach (var i in source)
+            {
+                action(i);
+            }
+        }
     }
 }
