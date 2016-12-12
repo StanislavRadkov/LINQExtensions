@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQExtensions", "LINQExtensions\LINQExtensions.csproj", "{B5D380DB-7EE0-4A21-B7CB-72BCA0E6017D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQExtensionsTests", "LINQExtensionsTests\LINQExtensionsTests.csproj", "{8EF5B83C-EE7A-483B-9EF4-385A57E978EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{B5D380DB-7EE0-4A21-B7CB-72BCA0E6017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D380DB-7EE0-4A21-B7CB-72BCA0E6017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D380DB-7EE0-4A21-B7CB-72BCA0E6017D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF5B83C-EE7A-483B-9EF4-385A57E978EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF5B83C-EE7A-483B-9EF4-385A57E978EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF5B83C-EE7A-483B-9EF4-385A57E978EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF5B83C-EE7A-483B-9EF4-385A57E978EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
