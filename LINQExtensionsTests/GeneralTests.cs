@@ -140,5 +140,25 @@ namespace LINQExtensionsTests
         {
             Assert.AreEqual(false, (new int[] { 1, 2, 3 }).None(x => x % 2 == 0));
         }
+
+        [TestMethod]
+        public void TestForEach()
+        {
+            var list = new List<int>();
+            var data = new int[] { };
+            data.ForEach(x => list.Add(x));
+
+            Assert.AreEqual(0, list.Count);
+        }
+
+        [TestMethod]
+        public void TestForEachFilledArray()
+        {
+            var list = new List<int>();
+            var data = new int[] { 1, 2, 3, 4, 5, 6, 7, 8};
+            data.ForEach(x => list.Add(x));
+
+            CollectionAssert.AreEqual(data, list);
+        }
     }
 }
