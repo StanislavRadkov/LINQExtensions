@@ -4,3 +4,7 @@ language: csharp
 solution: LINQExtensions.sln
 install:
   - nuget restore LINQExtensions.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release LINQExtensions.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./LINQExtensionsTests/bin/Release/LINQExtensionsTests.dll
